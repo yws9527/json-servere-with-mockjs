@@ -10,8 +10,8 @@ const gradeNames = [
 const averages = () => {
   return Mock.mock({
     code: 200,
-    succ: true,
-    msg: 'ok',
+    success: true,
+    message: 'ok',
     data: {
       'list|12': [
         {
@@ -28,8 +28,8 @@ const averages = () => {
 const plan = () => {
   return Mock.mock({
     code: 200,
-    succ: true,
-    msg: 'ok',
+    success: true,
+    message: 'ok',
     data: {
       'list|6-12': [
         {
